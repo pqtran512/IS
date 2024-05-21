@@ -1,0 +1,43 @@
+.mycard {
+    width: 250px;
+    height: 306px;
+    padding-top: 16px;
+    position: relative;
+    cursor: pointer;
+}
+.img {
+  width: 190px;
+  height: 260px;
+  margin-inline: auto;
+  margin-top: 12px;
+}
+.title {
+    padding-top: 16px;
+    color: #393280;
+    font-size: 19px;
+    font-weight: 700;
+}
+.author {
+    padding-top: 0px;
+    color: #888888;
+    font-size: 13px;
+    font-weight: 600;
+}
+.price {
+    padding-top: 6px;
+    color: #ED553B;
+    font-size: 17px;
+    font-weight: 700;
+}
+.card-text {
+    margin-bottom: 0px;
+}
+.add-to-cart-btn {
+    position: absolute;
+    top: 50%;
+    width: 87%;
+    display: none;
+}
+.mycard:hover .add-to-cart-btn {
+    display: block;
+  }

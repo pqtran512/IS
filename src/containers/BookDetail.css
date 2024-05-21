@@ -1,0 +1,42 @@
+.book-container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.book-header {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ED553B ;
+}
+.book-title {
+    color: #393280;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.book-author {
+    padding-top: 8px;
+    text-transform: uppercase;
+    color: #888888;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.book-description {
+    padding-top: 16px;
+    max-width: 100%;
+    color: #767070;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.book-price {
+    color: #ED553B;
+    font-size: 21px;
+    font-weight: 700;
+}
+.btn-1 {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}

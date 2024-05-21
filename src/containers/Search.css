@@ -1,0 +1,27 @@
+.search-grid-container {
+    display: grid;
+    grid-template-columns: 220px 1000px;
+    gap: 40px;
+    padding-top: 40px;
+}
+.search-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #393280;
+}
+.search-option {
+    height: fit-content;
+    padding-bottom: 10px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #E0E0E0;
+} 
+input.i-price {
+    width: 60px;
+}
+.book-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    column-gap: 20px;
+    row-gap: 120px;
+}

@@ -1,0 +1,72 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 377px auto 377px;
+    gap: 30px;
+    padding-top: 48px;
+}
+.category {
+    height: 364px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    text-decoration-line: none;
+    padding: 20px;
+    background-position: center;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.category:hover {
+    filter: brightness(.9);
+}
+.card1 {
+    background-image: url("https://i.pinimg.com/564x/52/c2/40/52c240ef828991e26c062d9761885e54.jpg");
+}
+.card3 {
+    background-image: url("https://i.pinimg.com/564x/18/db/e1/18dbe1269281a46f9064eb5efae42dbc.jpg");
+}
+.card4 {
+    background-image: url("https://i.pinimg.com/564x/77/91/93/7791930e6a1b4122302899864f0a7285.jpg");
+}
+.card5 {
+    background-image: url("https://i.pinimg.com/564x/e8/45/23/e8452374d51e67955e0c97fed644e448.jpg");
+}
+.card6 {
+    background-image: url("https://i.pinimg.com/564x/de/21/8c/de218cdec0c17c895e7206a8f8a6e64b.jpg");
+}
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #74899a;
+    border-radius: 16px;
+}
+.card2 p {
+    font-size: 34px;
+    font-weight: 800;
+    color: #173F5F;
+    text-align: center;
+}
+.card2 .btn-view {
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 4px 24px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #393280;
+    text-align: center;
+}
+.line {
+    width: 25%;
+    height: 2px;
+    background-color: #74899a;
+}
+.recbook {
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

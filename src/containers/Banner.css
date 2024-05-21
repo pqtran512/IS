@@ -1,0 +1,31 @@
+.carousel-indicators [data-bs-target] {
+  background-color: #F87C56;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+.text-box {
+  position: absolute;
+  left: 100px;
+  /* top: 100px; */
+  bottom: 50px;
+  z-index: 10;
+}
+h1 {
+  font-size: 60px;
+  color:#fff; /* #393280; */
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+p {
+  max-width: 580px;
+  letter-spacing: 1px;
+  white-space: pre-wrap;
+  color: #dad6ca;  /* #173F5F; */
+  font-weight: 500;
+}
+.btn-read-more {
+  margin-top: 20px;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+}
