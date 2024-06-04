@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import axios from 'axios';
 import { Button } from 'react-bootstrap';
 import { BookCard } from '../components'
 import { Link, useNavigate } from 'react-router-dom';
 import './Homepage.css'
 
-const Homepage = () => {
+function Homepage() {
     const navigate = useNavigate()
+
     return (
         <main style={{maxWidth:'1280px', marginInline: 'auto'}}>
             <section className="grid-container">
@@ -26,10 +28,11 @@ const Homepage = () => {
                     <div className='line'></div>
                 </div>
                 <div className='recbook'>
-                    <BookCard />
-                    <BookCard />
-                    <BookCard />
-                    <BookCard />
+                    {data && <BookCard data={data.rcmd_1} />}
+                    {data && <BookCard data={data.rcmd_2} />}
+                    {data && <BookCard data={data.rcmd_3} />}
+                    {data && <BookCard data={data.rcmd_4} />}
+                    {/* {data && <p>Data from Flask API: {data.rcmd_1}</p>} */}
                 </div>
             </section>
         </main>
